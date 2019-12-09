@@ -1,0 +1,15 @@
+{
+  "conf": {
+    "directory": "./conf",
+    "default": "production",
+    "file": {
+      "common": "default",
+      "env": {
+        "local": "local",
+        "development": "dev",
+        "test": "test",
+        "production": "prod"
+      }
+    }
+  }
+}

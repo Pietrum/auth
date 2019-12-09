@@ -1,0 +1,30 @@
+{
+  "name": "pietrum-oauth",
+  "version": "0.1.0",
+  "description": "Simple Authorization Server ",
+  "main": "auth.js",
+  "scripts": {
+    "ci": "jest --verbose",
+    "develop": "nodemon .",
+    "lint": "eslint lib/ .",
+    "start": "node .",
+    "test": "npm run lint && npm run ci"
+  },
+  "author": "Fulkman <fulkman@pietrum.pl> (http://www.pietrum.pl)",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "ioredis": "^4.14.1",
+    "ss-conf": "^0.1.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-node": "^10.0.0",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.1"
+  }
+}
