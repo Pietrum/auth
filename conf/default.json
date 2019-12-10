@@ -1,0 +1,6 @@
+{
+  "redis": {
+    "keyPrefix": "pietrum-%s:auth:",
+    "password": null
+  }
+}
